@@ -1,0 +1,98 @@
+/* Estilização básica */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, #ffffff 0%, #4c80b8bd 100%);
+}
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+    margin-top: -550px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.calculator {
+    display: inline-block;
+    margin-left: -370px;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    width: 100%;
+}
+
+.screen {
+    width: 100%;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: right;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eaeaea;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    font-size: 1em;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4c80b8;
+    color: #fff;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #356299;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #244b6e;
+    transform: scale(1);
+}
+
+
+#resultado {
+    font-family: Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    background-color:#6c757d5b;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
